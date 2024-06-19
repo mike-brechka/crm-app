@@ -25,8 +25,6 @@ A comprehensive CRM (Customer Relationship Management) application developed to 
 
 Ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v12.x or later)
-- [Angular CLI](https://angular.io/cli) (v10.x or later)
 - [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet) (v3.1 or later)
 - [Visual Studio](https://visualstudio.microsoft.com/) (recommended) or any C# IDE
 
@@ -38,29 +36,17 @@ Ensure you have the following installed on your machine:
     cd crm-app
     ```
 
-2. Install the dependencies for the Angular frontend:
-    ```bash
-    npm install
-    ```
-
-3. Restore the .NET dependencies for the backend:
+2. Restore the .NET dependencies for the backend:
     ```bash
     dotnet restore
     ```
 
 ### Running the Application ▶️
 
-1. Start the .NET backend server:
-    ```bash
+Start the .NET backend server:
+    ```
     dotnet run
     ```
-
-2. Start the Angular development server:
-    ```bash
-    ng serve
-    ```
-
-3. Open your browser and navigate to `http://localhost:4200`.
 
 ## Usage 💡
 
